@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #1c1c1c; /*Dark mode background */
+    color: #f0f0f0; /*Light text color */
+}
+
+header {
+    background-color: #2b2b2b;
+    padding: 20px;
+    text-align: center;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.navbar ul li {
+    margin: 0 20px;
+}
+
+.navbar ul li a {
+    color: #f0f0f0; /* Visible link color */
+    text-decoration: none;
+}
+
+.logo {
+    color: #ff5722; /*Highlighted logo color */
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.landing-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    background-color: #2b2b2b; /*Dark section background */
+}
+
+.product-info {
+    max-width: 500px;
+}
+
+.product-info h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #ff5722; /*Highlighting heading */
+}
+
+.product-info p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.buy-now-btn {
+    background-color: #ff5722;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.product-image img {
+    width: 400px;
+    height: auto;
+    border-radius: 15px; /* Rounded edges for the product image */
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5); /* Image shadow */
+}
+
+.features-section, .pricing-section, .reviews-section, .contact-section {
+    padding: 50px 20px;
+    background-color: #1c1c1c; /*Dark background */
+    text-align: center;
+}
+
+.features-section h2, .pricing-section h2, .reviews-section h2, .contact-section h2 {
+    color: #ff5722; /*Highlight section titles */
+    margin-bottom: 30px;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #2b2b2b;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    color: #f0f0f0;
+}
+
+#myDropdown {
+    -webkit-appearance: none; /*  Remove default arrow appearances for Webkit browsers */
+    -moz-appearance: none;  /*  Remove default arrow appearances for Mozilla browsers */
+    appearance: none;  /*  Remove default arrow appearances for other browsers */
+    background-image: url();  /*  Replace with your desired background image */
+    background-repeat: no-repeat;
+    background-position: center right;
+    padding: 5px 20px 5px 10px; /* Adjust Padding as needed */
+    border: 1px solid #f5050550;
+    border-radius: 5px;
+}

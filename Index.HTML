@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="/Styles.CSS">
+</head>
+<body>
+    <header>
+        <select name="myDropdown" id="myDropdown">
+            <option value="option1">Option 1</option>
+            <option value="option2">Option 2</option>
+            <option value="option3">Option 3</option>
+            <option value="option4">Option 4</option>
+            <option value="option5">Option 5</option>
+        </select>
+        <nav class="navbar">
+            <div class="logo">My Product</div>
+            <ul>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="landing-section">
+        <div class="product-info">
+            <h1>Amazing Product</h1>
+            <p>Introducing the best product you'll ever use for your daily tasks.</p>
+            <a href="#buy" class="buy-now-btn">Buy Now</a>
+        </div>
+
+        <div class="product-image">
+            <img src="/Bugatti wallpaper.jpeg" alt="Product Image">
+        </div>
+    </section>
+
+    <section class="features-section" id="features">
+        <h2>Features</h2>
+        <ul>
+            <li>High-quality materials</li>
+            <li>Advanced Technology integration</li>
+            <li>Comfortable and durable</li>
+        </ul>
+    </section>
+
+    <section class="pricing-section" id="pricing">
+        <h2>Pricing</h2>
+        <p><strong>Price:</strong> <span id="price">$99.99</span></p>
+    </section>
+
+    <section class="reviews-section" id="reviews">
+        <h2>Customer Reviews</h2>
+        <ul id="review-list">
+            <!--    Review here will be loaded by JavaScript-->
+        </ul>
+    </section>
+
+
+    <footer>
+        <section class="contact-section" id="contact">
+            <h2>Contact Us</h2>
+            <p>Email: info@myproduct.com</p>
+            <p>Phone: +123 456 7890</p>
+        </section>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
